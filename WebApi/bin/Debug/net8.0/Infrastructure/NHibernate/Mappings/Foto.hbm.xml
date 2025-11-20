@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ApplicationCore.Domain.EN.Foto, ApplicationCore" table="Foto">
+    <id name="Id" column="Id" type="long">
+      <generator class="hilo">
+        <param name="table">NHibernateUniqueKey</param>
+        <param name="column">NextHigh</param>
+        <param name="max_lo">100</param>
+      </generator>
+    </id>
+    <property name="Url" />
+    <many-to-one name="Usuario" column="UsuarioId" class="ApplicationCore.Domain.EN.Usuario, ApplicationCore" not-null="true" />
+  </class>
+</hibernate-mapping>

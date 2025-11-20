@@ -1,0 +1,149 @@
+@startuml SpeedMatch
+skinparam packageStyle rectangle
+title SpeedMatch Domain
+
+package "SpeedMatch" {
+    class Usuario {
+        +id: long
+        +nombre: string
+        +email: string
+        +pass: string
+        +likesRecibidos: int
+        +likesEnviados: int
+        +numMatchs: int
+        +genero: Genero
+        +generoOtro: string
+        +baneado: bool
+        +fechaNacimiento: DateTime
+        +habitos: string
+        +comportamientos: string
+        +hobbies: string
+        +fotos: Foto
+        +ubicacion: Ubicacion
+        +descripcion: string
+        +preferencias: Preferencias
+        +tipoPlan: Plan
+        /' Cosas del premium '/
+        +superlikes: int
+        /'  '/
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Usuario[*]
+        +dameId(id: long): Usuario?
+        +darLike(usuario: Usuario, contador: int): Match match /' ESTO NECESITA UN RELACIONADOR ENTRE Usuario Match. SI YA EXISTE MATCH MIRAR QUE SI YA EXISTE, PARA NO DAR MAS DE UNA VEZ '/
+        +enviarLike(usuarioId: long): void
+        +incrementarMatchs(usuarioId: long): void
+        +existeMatch(Usuario: this, Usuario: otro): Bool existe /' esto se llama en darLike o darSuperLike para saber si crear un nuevo match o devolver uno existente actualizado '/
+        +cambiarPlan(tipo: Plan)
+    }
+
+    class Preferencias {
+        +id: autogen
+        +orientacion: OrientacionSexual
+        +orientacionOtro: string
+        +orientacionMostrar: bool
+        +conocer: PrefConocer
+        +conocerOtro: string
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Preferencias[*]
+        +dameId(id: long): Preferencias?
+    }
+
+    class Foto {
+        +id: long
+        +foto: string
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Foto[*]
+        +dameId(id: long): Foto?
+    }
+
+    class Ubicacion {
+        +id: long
+        +lat: double
+        +long: double
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Ubicacion[*]
+        +dameId(id: long): Ubicacion?
+    }
+
+    class Admin { 
+        +id: long
+        +email: string
+        +pass: string
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Admin[*]
+        +dameId(id: long): Admin?
+    }
+
+    class Match {
+        +id: long
+        +likeEmisor: bool
+        +likeReceptor: bool
+        -fechaLikeEmisor: DateTime
+        -fechaMatch: DateTime
+        +crear(): long
+        +crearMatchMutuo(): long /' TRANSACCION ATOMICA '/
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Match[*]
+        +dameId(id: long): Match?
+    }
+
+    class Notificacion {
+        +id: long
+        +mensaje: string
+        +likes: int
+        +crear(): long
+        +modificar(): void
+        +borrar(): void
+        +dameTodos(): Notificacion[*]
+        +dameId(id: long): Notificacion?
+    }
+
+    enum Genero {
+        Hombre
+        Mujer
+        Otro
+    }
+
+
+    enum PrefConocer {
+        Hombre
+        Mujer
+        Otro
+        Todos
+    }
+
+    enum OrientacionSexual {
+        Heterosexual
+        Gay
+        Lesbiana
+        Bisexual
+        Asexual
+        Otro
+    }
+
+    enum Plan {
+        Gratuito
+        Premium
+    }
+
+    ' Relaciones
+    Usuario "0..*" -- "1..1" Notificacion : Receptor
+    Notificacion "1..1" -- "0..*" Match : Notifica
+    Usuario "1..1" -- "0..*" Match : MatchReceptor
+    Usuario "1..1" -- "0..*" Match : MatchEmisor
+    Usuario "1..1" -- "0..*" Ubicacion : Coordenadas
+    Usuario "0..*" -- "1..1" Foto : Fotos
+    Usuario "1..1" *-- "1..1" Preferencias : contiene >
+
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ApplicationCore.Domain.EN.Usuario, ApplicationCore" table="Usuario">
+    <id name="Id" column="Id" type="long">
+      <generator class="hilo">
+        <param name="table">NHibernateUniqueKey</param>
+        <param name="column">NextHigh</param>
+        <param name="max_lo">100</param>
+      </generator>
+    </id>
+    <property name="Nombre" />
+    <property name="Email" />
+    <property name="Pass" />
+    <property name="LikesRecibidos" />
+    <property name="LikesEnviados" />
+    <property name="NumMatchs" />
+    <property name="Genero" />
+    <property name="GeneroOtro" />
+    <property name="Baneado" />
+    <property name="FechaNacimiento" />
+    <property name="Habitos" />
+    <property name="Comportamientos" />
+    <property name="Hobbies" />
+    <property name="Descripcion" />
+    <property name="TipoPlan" />
+    <property name="Superlikes" />
+    
+    <many-to-one name="Preferencias" column="PreferenciasId" class="ApplicationCore.Domain.EN.Preferencias, ApplicationCore" />
+
+    <set name="Fotos" inverse="true" cascade="all">
+      <key column="UsuarioId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Foto, ApplicationCore" />
+    </set>
+
+    <set name="Ubicacion" inverse="true" cascade="all">
+      <key column="UsuarioId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Ubicacion, ApplicationCore" />
+    </set>
+
+    <set name="MatchesEnviados" inverse="true">
+      <key column="EmisorId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Match, ApplicationCore" />
+    </set>
+
+    <set name="MatchesRecibidos" inverse="true">
+      <key column="ReceptorId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Match, ApplicationCore" />
+    </set>
+
+    <set name="NotificacionesRecibidas" inverse="true">
+      <key column="ReceptorId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Notificacion, ApplicationCore" />
+    </set>
+  </class>
+</hibernate-mapping>

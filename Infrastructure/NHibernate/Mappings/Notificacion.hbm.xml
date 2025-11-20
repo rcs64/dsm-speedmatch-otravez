@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ApplicationCore.Domain.EN.Notificacion, ApplicationCore" table="Notificacion">
+    <id name="Id" column="Id" type="long">
+      <generator class="hilo">
+        <param name="table">NHibernateUniqueKey</param>
+        <param name="column">NextHigh</param>
+        <param name="max_lo">100</param>
+      </generator>
+    </id>
+    <property name="Mensaje" />
+    <property name="Likes" />
+    <property name="ReceptorId" column="ReceptorId" insert="false" update="false" />
+    <many-to-one name="Receptor" column="ReceptorId" class="ApplicationCore.Domain.EN.Usuario, ApplicationCore" not-null="true" />
+    <set name="Matches" inverse="true">
+      <key column="NotificacionId" />
+      <one-to-many class="ApplicationCore.Domain.EN.Match, ApplicationCore" />
+    </set>
+  </class>
+</hibernate-mapping>

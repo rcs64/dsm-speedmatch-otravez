@@ -1,0 +1,9 @@
+using System;
+
+namespace ApplicationCore.Domain.Repositories
+{
+    public interface IUnitOfWork : IDisposable
+    {
+        void SaveChanges();
+    }
+}

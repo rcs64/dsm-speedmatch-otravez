@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ApplicationCore.Domain.EN.Match, ApplicationCore" table="Match">
+    <id name="Id" column="Id" type="long">
+      <generator class="hilo">
+        <param name="table">NHibernateUniqueKey</param>
+        <param name="column">NextHigh</param>
+        <param name="max_lo">100</param>
+      </generator>
+    </id>
+    <property name="LikeEmisor" />
+    <property name="LikeReceptor" />
+    <property name="EsSuperlike" />
+    <property name="FechaInicio" />
+    <property name="FechaLikeEmisor" />
+    <property name="FechaMatch" />
+    <property name="EmisorId" column="EmisorId" insert="false" update="false" />
+    <property name="ReceptorId" column="ReceptorId" insert="false" update="false" />
+    <property name="NotificacionId" column="NotificacionId" insert="false" update="false" />
+    <many-to-one name="Emisor" column="EmisorId" class="ApplicationCore.Domain.EN.Usuario, ApplicationCore" not-null="true" />
+    <many-to-one name="Receptor" column="ReceptorId" class="ApplicationCore.Domain.EN.Usuario, ApplicationCore" not-null="true" />
+    <many-to-one name="Notificacion" column="NotificacionId" class="ApplicationCore.Domain.EN.Notificacion, ApplicationCore" />
+  </class>
+</hibernate-mapping>

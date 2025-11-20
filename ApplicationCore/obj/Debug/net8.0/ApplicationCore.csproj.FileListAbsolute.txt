@@ -1,0 +1,51 @@
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\arigu\1UNIVERSIDAD\DSM\DSM\practica\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\aaaaaaaaaaaa\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\arigu\1UNIVERSIDAD\DSM\FINAL\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\rcs_2\Desktop\Universidad\Ingeniería Multimedia\Año 3\DSM\DSM-SpeedMatch\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
